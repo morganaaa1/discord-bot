@@ -86,7 +86,7 @@ After deploying the commands you should be able to see and access them by typing
 A mutliarch docker image for `amd64` and `arm64` based on the main branch is available from Github Container Registry:
 
 ```bash
-docker pull ghcr.io/TannerGabriel/discord-bot:latest
+docker pull docker.io/morgashann/music-bot-v3:latest
 ```
 
 A Github Action automatically builds and push `amd64` and `arm64` to ghcr.io, all builds are based on the main branch.
